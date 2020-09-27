@@ -1,14 +1,42 @@
 
 body{
-  background-color:
+  background-color:powderblue;
 }
 h1{
   text-align: center;
   color:darkblue;
 }
+.container{
+  margin-top: 30%;
+  color:black;
+  margin-right:40%;
+  position:absolute;
+}
+.form{
+  width:300px;
+  border: 2px black;
+  padding:10px;
+  background-color:pink;
+}
+.container #submit{
+  background-color:grey;
+  border:1px black;
+  width:100px;
+  height: 30px;
+  color:black;
+}
 h2{
   text-align: center;
   color: darkblue;
+}
+#valu{
+  border:2px black;
+  font-size:20px;
+  widows:30px;
+}
+.form-control select{
+  width: 10%;
+  height: 20px;
 }
 footer{
 	background: #000000;
@@ -16,7 +44,12 @@ footer{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
     color:white;
-
+}
+.col-md-4{
+  margin-left:40%;
+}
+.forn-control{
+  width:60%;
 }
 footer .about-us p{
 	font-size: 20px;
