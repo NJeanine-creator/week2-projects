@@ -1,0 +1,26 @@
+
+body{
+  background-color:
+}
+h1{
+  text-align: center;
+  color:darkblue;
+}
+h2{
+  text-align: center;
+  color: darkblue;
+}
+footer{
+	background: #000000;
+	height: 30%;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+    color:white;
+
+}
+footer .about-us p{
+	font-size: 20px;
+}
+footer .contact-us p{
+  color:white;
+}
