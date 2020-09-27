@@ -48,5 +48,5 @@ else if (day==0 && gender=='male'){
   }else if (day==6 && gender=='male'){
       document.getElementById('valu').innerHTML='Kwame'
   }
-  
+
 }
